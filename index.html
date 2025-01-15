@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be Mine? 💖</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="question-box">
+      <h1 id="question">Will you go on this journey with me? 🥰</h1>
+      <div class="buttons">
+        <button id="yes-btn" onclick="nextQuestion(true)">Yes</button>
+        <button id="no-btn" onclick="nextQuestion(false)">No</button>
+      </div>
+    </div>
+    <div id="cat-box" style="display: none;">
+      <img id="cat-image" src="" alt="Cute Cat" />
+      <p>Are you sure you want to say no? 😿</p>
+      <button id="back-btn" onclick="backToQuestion()">Go Back</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
